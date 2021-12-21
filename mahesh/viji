@@ -1,0 +1,19 @@
+#shell program to multiply two numbers 
+
+num1=10
+num2=20
+
+ans=$((num1 * num2))
+
+echo $an
+
+
+
+#!/bin/bash
+value='55'
+size=`df -kh | grep '/vol/cdr/MCA' | awk '{print $5}'| sed 's/%//g'`
+if [ "$size" -gt "$value" ] ;
+then
+delete=[ "$size" - "$value" ]
+echo $delete
+fis
